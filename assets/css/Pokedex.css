@@ -78,6 +78,80 @@
     background-color: #f9aec7;
 }
 
+
+
+.normalb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.grassb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fireb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.waterb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.electricb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.iceb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.groundb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.flyingb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.poisonb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fightingb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.psychicb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.darkb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.rockb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bugb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ghostb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.steelb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dragonb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fairyb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 .pokemon {
     margin: 1rem;
     padding: 0.80rem 0.90rem;
@@ -104,7 +178,6 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .pokemon .detail {
@@ -119,9 +192,13 @@
 .pokemon .detail .types .type {
     color: #FFF;
     padding: .25rem 1rem;
-    font-size: 0.625rem;
+    font-size: 0.650rem;
     margin: 0.25rem 0;
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .pokemon .detail img {
